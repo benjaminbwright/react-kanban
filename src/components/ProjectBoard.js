@@ -1,5 +1,11 @@
+import ProjectBoardColumns from "./ProjectBoardColumns"
+import ProjectBoardHeader from "./ProjectBoardHeader"
+
 export default function ProjectBoard() {
   return (
-    <nav>I'm a project board.</nav>
+    <div className="container-fluid">
+      <ProjectBoardHeader />
+      <ProjectBoardColumns />
+    </div>
   )
 }
