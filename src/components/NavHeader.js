@@ -1,12 +1,12 @@
 import NavButton from "./NavButton";
-import SearchBar from "./SearchBar";
+import NavSearchBar from "./NavSearchBar";
 
-export default function HeaderNav() {
+export default function NavHeader() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="d-inline-flex">
         <NavButton />
-        <SearchBar />
+        <NavSearchBar />
       </div>
     </nav>
   );

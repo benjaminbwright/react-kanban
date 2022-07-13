@@ -1,6 +1,6 @@
-export default function SearchBar() {
+export default function NavSearchBar() {
   return (
-    <form className="d-flex" style="width: 500px" role="search">
+    <form className="d-flex" style={{ width: "500px" }} role="search">
       <input
         className="form-control me-2"
         type="search"
