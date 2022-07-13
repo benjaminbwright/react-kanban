@@ -3,7 +3,7 @@ import NavSearchBar from "./NavSearchBar";
 
 export default function NavHeader() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-dark bg-dark">
       <div className="d-inline-flex">
         <NavButton />
         <NavSearchBar />
