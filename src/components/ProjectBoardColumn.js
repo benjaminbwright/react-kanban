@@ -9,7 +9,7 @@ export default function ProjectBoardColumns() {
   }
   return (
     <div className="col-3" >
-      <div className="p-5" style={styles.columnContent} >
+      <div className="p-3" style={styles.columnContent} >
         <Card />
       </div>
     </div>
